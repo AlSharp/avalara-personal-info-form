@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.avalara-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.avalara-form > form {
+  width: 500px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.avalara-form > form > h1 {
+  margin: 0 0 12px 0;
+}
+
+.input-field {
+  margin: 10px 0;
+}
+
+.avalara-form > form > button {
+  margin: 12px 0 0 0;
+}
+
+.input-field > div> div:last-child > input, select, label {
+  margin-right: 15px;
+  min-width: 200px;
+}
